@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examination System</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href="style.css" rel="stylesheet" type="text/css">
+<style>
+
+</style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="home-page" id="homePage">
+        <h1>Simple Examinations System</h1>
+        <input type="text" id="studentName" placeholder="Enter your name" required>
+        <button class="btn" id="startButton" disabled>Start Exam</button>
+      </div>
+    
+      <div class="question-container" id="questionContainer">
+        <div class="timer-container">
+          <div class="timer-bar">
+            <div class="timer-progress" id="timerProgress"></div>
+          </div>
+        </div>
+    
+        <div class="question-card" id="questionCard">
+          <h2 class="question-title" id="questionTitle"></h2>
+          <img src="" id="questionImage" class="question-image">
+          <div class="answer-options" id="answerOptions"></div>
+        </div>
+    
+        <button class="btn" id="nextButton" disabled>Next Question</button>
+      </div>
+    
+      <div class="results-container" id="resultsContainer">
+        <h2>Exam Results</h2>
+          <div class="progress-circle">
+            <div class="progress-bg">
+              <div class="progress" id="progress"></div>
+              <div class="progress-inner">
+                <div class="percentage" id="percentage">20%</div>
+              </div>
+            </div>
+          </div>
+          <div id="result-text">You have 9 out of 10 correct answers</div>
+        <button class="btn" id="retakeButton">Retake Exam</button>
+      </div>
+    </div>
+    <script src="script.js"></script> 
+  </body>
+</html>

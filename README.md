@@ -28,4 +28,4 @@ The **Simple Examination System** is a web-based application designed to manage 
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/MuhammadFawzii/Simple-Examination--System.git
+   git clone https://github.com/MuhammadFawzii/Examination-System-JS.git

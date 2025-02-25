@@ -8,7 +8,7 @@ The **Simple Examination System** is a web-based application designed to manage 
 
 ## Live Demo
 
-🔗 **[Click here to view the live project](https://muhammadfawzii.github.io/Simple-Examination--System/)**
+🔗 **[Click here to view the live project](https://muhammadfawzii.github.io/Examination-System-JS/)**
 
 ## Features
 
